@@ -1,0 +1,27 @@
+{
+	"name": "joaocarvalho/api-plugin",
+	"description": "A simple WordPress plugin that fetches and manages API.",
+	"type": "project",
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.7",
+		"automattic/vipwpcs": "^2.3",
+		"php-stubs/wp-cli-stubs": "^2.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"ApiPlugin\\": "includes/"
+		}
+	},
+	"authors": [
+		{
+			"name": "João Carvalho",
+			"email": "oi@joaocarvalho.cc"
+		}
+	],
+	"config": {
+		"vendor-dir": "includes/vendor",
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

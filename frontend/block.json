@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "joaocarvalho/api-plugin",
+	"version": "0.1.0",
+	"title": "API Results",
+	"category": "widgets",
+	"icon": "text-page",
+	"description": "Show the results of the API in a table.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "api-plugin",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"hiddenFields": {
+			"type": "object",
+			"default": {}
+		},
+		"tableContent": {
+			"type": "object",
+			"default": {
+				"title": "",
+				"headers": [],
+				"rows": [],
+				"fields": []
+			}
+		}
+	}
+}

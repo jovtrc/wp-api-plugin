@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: API Plugin 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-api-plugin\n"
+"Last-Translator: João Carvalho <oi@joaocarvalho.cc>\n"
+"Language-Team: João Carvalho <oi@joaocarvalho.cc>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-03T05:26:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: pt-BR\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: api-plugin\n"
+
+#. Plugin Name of the plugin
+msgid "API Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple WordPress plugin that fetches and manages API."
+msgstr "Um plugin símples para WordPress que gerencia e busca API"
+
+#. Author of the plugin
+msgid "João Carvalho"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://joaocarvalho.cc"
+msgstr ""
+
+#: includes/AdminScreen.php:67
+msgid "Cache purged"
+msgstr "Cache limpo"
+
+#: includes/AdminTable.php:33
+msgid "User"
+msgstr "Usuário"
+
+#: includes/AdminTable.php:34
+msgid "Users"
+msgstr "Usuários"
+
+#: includes/Cli.php:48
+msgid "Cleaning cache..."
+msgstr "Limpando cache..."
+
+#: includes/Cli.php:50
+msgid "Done!"
+msgstr "Feito!"
+
+#: build/block.json
+#: frontend/block.json
+msgctxt "block title"
+msgid "API Results"
+msgstr "Resultados da API"
+
+#: build/block.json
+#: frontend/block.json
+msgctxt "block description"
+msgid "Show the results of the API in a table."
+msgstr "Exibe os resultados da API em uma tabela."
+
+#: includes/AdminScreen.php:80
+msgid "Clear Cache"
+msgstr "Limpar Cache"
+
+#: build/index.js:105
+#: frontend/edit.js:80
+#: build/index.js:80
+msgid "Hide Columns"
+msgstr "Esconder Colunas"
+
+#: Table title
+msgid "This amazing table"
+msgstr "Esta tabela incrível"
+
+#: First Name
+msgid "First Name"
+msgstr "Primeiro nome"
+
+#: Last Name
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Date
+msgid "Date"
+msgstr "Data"
